@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/3DConvNet.iml" filepath="$PROJECT_DIR$/.idea/3DConvNet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cnn-svm/.idea/cnn-svm.iml" filepath="$PROJECT_DIR$/../cnn-svm/.idea/cnn-svm.iml" />
+      <module fileurl="file:///home/donga/dicom/.idea/dicom.iml" filepath="/home/donga/dicom/.idea/dicom.iml" />
+      <module fileurl="file:///home/donga/Hkang/draw_convnet/.idea/draw_convnet.iml" filepath="/home/donga/Hkang/draw_convnet/.idea/draw_convnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../svm/.idea/svm.iml" filepath="$PROJECT_DIR$/../svm/.idea/svm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unittest/.idea/unittest.iml" filepath="$PROJECT_DIR$/../unittest/.idea/unittest.iml" />
+    </modules>
+  </component>
+</project>
