@@ -1,7 +1,8 @@
 # 3D Convolutional Neural Network
 
 I studied 3D CNN and other hyperparameter to improve the performance of one's model. 
-So I just implemented 3D CNN Framework with my study, I refered to many of programs from github(digits, lung repo)
+So I just implemented 3D CNN Framework with my study, I refered to many of programs from github(digits, [lung repo](https://github.com/awp4211/lung))
+
 I'll rearrange this repo in a calm and orderly way
 
 ## Usage
