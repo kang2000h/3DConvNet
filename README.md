@@ -9,7 +9,9 @@ I'll rearrange this repo in a calm and orderly way
 ## Usage
 
 ### dicom files preprocessing & converting
+
 dicom_loader.py / nifti_loader.py
+
 npy_holdout.py
 
 main.py
