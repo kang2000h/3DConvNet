@@ -8,6 +8,18 @@ I'll rearrange this repo in a calm and orderly way
 
 ## Usage
 
+### dicom files preprocessing & converting
+dicom_loader.py / nifti_loader.py
+npy_holdout.py
+
+main.py
+
+### train phase
 `python main.py --mode=train --data_path=./data/kaggle_data.npy --model_dir=./tmp/checkpoint --learning_rate=0.00001 --epoch=200`
 
 `python main.py --mode=train --data_path=./data/neurology-250-250-20.npy --model_dir=./tmp/checkpoint --learning_rate=0.00001 --epoch=200`
+
+### val phase
+
+
+### test phase
