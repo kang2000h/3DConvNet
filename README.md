@@ -10,11 +10,11 @@ I'll rearrange this repo in a calm and orderly way
 
 ### dicom files preprocessing & converting
 
-dicom_loader.py / nifti_loader.py
+dicom_loader.py / nifti_loader.py : make dicom/nifti file into npy file to separate source file and data processing pipeline.
 
-npy_holdout.py
+npy_holdout.py : make npy file into separated npy files with fixed data structure.
 
-main.py
+main.py : manage 3DConvNet module according to intended function.
 
 ### train phase
 `python main.py --mode=train --data_path=./data/kaggle_data.npy --model_dir=./tmp/checkpoint --learning_rate=0.00001 --epoch=200`
