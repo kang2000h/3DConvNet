@@ -10,9 +10,14 @@ I'll rearrange this repo in a calm and orderly way
 
 ### dicom files preprocessing & converting
 
+dcm2nii.py : convert dcm file into nifti file.
+`python dcm2nii.py --data_dir [dcm's upper-upper dir] --output_dir [savepath]`
+
 dicom_loader.py / nifti_loader.py : make dicom/nifti file into npy file to separate source file and data processing pipeline.
+dicom_loader2.py / nifti_loader2.py : running like above, but internally create and use a process handling p_id.
 
 npy_holdout.py : make npy file into separated npy files with fixed data structure.
+npy_holdout2.py : running like above, but internally create and use a process handling p_id. 
 
 main.py : manage 3DConvNet module according to intended function.
 
