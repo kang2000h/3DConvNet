@@ -11,6 +11,7 @@ I'll rearrange this repo in a calm and orderly way
 ### dicom files preprocessing & converting
 
 dcm2nii.py : convert dcm file into nifti file.
+
 `python dcm2nii.py --data_dir [dcm's upper-upper dir] --output_dir [savepath]`
 
 dicom_loader.py / nifti_loader.py : make dicom/nifti file into npy file to separate source file and data processing pipeline.
