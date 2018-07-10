@@ -30,6 +30,9 @@ main.py : manage 3DConvNet module according to intended function.
 `python main.py --mode=train --data_path=./data/neurology-250-250-20.npy --model_dir=./tmp/checkpoint --learning_rate=0.00001 --epoch=200`
 
 ### val phase
+`python main.py --mode=val --tv_type=cnn_ho --data_path=./data/neurology-250-250-20.npy --model_dir=./tmp/checkpoint --learning_rate=0.00001 --epoch=200`
 
 
 ### test phase
+`python main.py --mode=test --data_path=./data/neurology-250-250-20.npy --model_dir=./tmp/checkpoint
+
