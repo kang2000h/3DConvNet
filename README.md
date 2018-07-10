@@ -34,5 +34,5 @@ main.py : manage 3DConvNet module according to intended function.
 
 
 ### test phase
-`python main.py --mode=test --data_path=./data/neurology-250-250-20.npy --model_dir=./tmp/checkpoint
+`python main.py --mode=test --data_path=./data/neurology-250-250-20.npy --model_dir=./tmp/checkpoint`
 
